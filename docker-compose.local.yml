@@ -1,0 +1,6 @@
+services:
+  app:
+    ports:
+      - 8000:8000
+    image: app:WebsiteTemplate
+    container_name: WebsiteTemplate
