@@ -1,6 +1,21 @@
 services:
   app:
+    build: .
+    volumes:
+      - .:/WebsiteTemplate
     ports:
       - 8000:8000
     image: app:WebsiteTemplate
-    container_name: WebsiteTemplate
+    container_name: WebsiteApp
+    depends_on:
+      - db
+
+  db:
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=user
+    container_name: postgres
