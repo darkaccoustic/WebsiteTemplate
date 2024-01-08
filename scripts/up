@@ -1,2 +1,4 @@
 #! /bin/bash
 # This is a script to quickly launch a docker.
+
+docker compose up app
