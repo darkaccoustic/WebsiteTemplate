@@ -48,4 +48,6 @@
 
 15) ??? Initialize a repository ???
 
-16)??? Run: 'git checkout -b develop origin/develop'
+16) ??? Run: 'git fetch origin'
+
+17)??? Run: 'git checkout -b develop origin/develop'
