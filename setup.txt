@@ -36,12 +36,16 @@
 
 9) Verify/Install pip3 Run: (pip3 --version) (apt-get install python3-pip)
 
-10) Run: 'apt-get upgrade' in WSL
+10) Run: 'apt-get install pipenv --user'
 
-11) In VS-c, open the directory where code will live
+11) Run: 'pip install --user --upgrade pipenv'
 
-12) Sign into Git in VS-C
+12) Run: 'apt-get upgrade' in WSL
 
-13) ??? Initialize a repository ???
+13) In VS-c, open the directory where code will live
 
-14)??? Run: 'git checkout -b develop origin/develop'
+14) Sign into Git in VS-C
+
+15) ??? Initialize a repository ???
+
+16)??? Run: 'git checkout -b develop origin/develop'
