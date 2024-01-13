@@ -1,0 +1,47 @@
+1) Install VS Code
+
+2) Install WSL and Upgrade it to WSL2
+
+3) Install Git
+
+4) Create a directory for the code to live
+
+5) Get VS-C Extensions:
+- .NET Install Tool
+- Dev Containers
+- Django
+- Docker
+- GitLens
+- HTML CSS Support
+- HTML Preview
+- Javascript and Typescript Nightly
+- Javascript Debugger
+- Jupyter
+- Jupyter Cell Tags
+- Jupyter Keymap
+- Jupyter Notebook Renderers
+- Jupyter Slide Show
+- Live Server
+- Pylance
+- Python
+- Vim
+- WSL
+- XML
+
+6) Set WSL as VS-C's default terminal
+
+7) Run: 'apt-get update' in WSL
+
+8) Verify/Install python3 Run: (python3 --version) (apt-get install python3)
+
+9) Verify/Install pip3 Run: (pip3 --version) (apt-get install python3-pip)
+
+10) Run: 'apt-get upgrade' in WSL
+
+11) In VS-c, open the directory where code will live
+
+12) Sign into Git in VS-C
+
+13) ??? Initialize a repository ???
+
+14)??? Run: 'git checkout -b develop origin/develop'
