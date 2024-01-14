@@ -1,3 +1,4 @@
 #! /bin/bash
 # This is a script to quickly build a docker.
+
 docker exec -it WebsiteApp /bin/bash

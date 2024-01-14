@@ -2,17 +2,16 @@ services:
   app:
     build: .
     volumes:
-      - .:/WebsiteTemplate
+      - .:/src
     ports:
       - 8000:8000
-    image: app:WebsiteTemplate
+    image: app:app
     container_name: WebsiteApp
     depends_on:
       - db
-
+    # command: pipenv run ./manage.py runserver 0.0.0.0:8000
   db:
     image: postgres:latest
-    container_name: postgres
     volumes:
       - ./data/db:/var/lib/postgresql/data
     environment:
@@ -20,3 +19,4 @@ services:
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=user
       - PGDATA=/var/lib/pg_data
+    container_name: Postgres

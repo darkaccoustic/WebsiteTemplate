@@ -1,3 +1,4 @@
 #bin/bash
 # This is a script to quickly down a docker.
-docker-compose -f ../docker-compose.local.yml down app
+
+docker-compose -f ../../docker-compose.local.yml down app
