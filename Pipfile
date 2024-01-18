@@ -10,4 +10,4 @@ psycopg2-binary = ">=2.8"
 [dev-packages]
 
 [requires]
-python_version = "3.12.*"
+python_version = "3.12.1"
